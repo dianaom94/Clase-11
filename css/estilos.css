@@ -77,6 +77,10 @@
         width: 70% !important;
         margin-bottom: 20px !important;
     }
+    .icono-module{
+        width: 20%;
+        height: 20%;
+    }
 }
 
 body{
@@ -89,9 +93,6 @@ body{
     position: fixed;
     z-index: 1000;
     background: white;
-   
-    
-    
 }
 
 
@@ -277,22 +278,20 @@ body{
     display: flex;
     color: rgb(51, 49, 49);
     font-family: bikoregular;
+    align-items: center;
     
 }
 
 
 
 
-.box-parrafos2{
-    font-size: 20px;
-}
+
 .margen-foto{
     position: absolute;
     left:  73%;
     background-color:rgba(21, 17, 17, 0);
     width:20%;
     height: 540px;
-    top:118%;
     border: solid #39b7b8 3px;
 
 }
@@ -364,6 +363,8 @@ body{
     flex-direction: row-reverse;
     margin-top: 200px;
     justify-content:space-around;
+    font-size: 20px;
+    align-items: center;
 }
 .fotoparrafo2{
     width: 40%;
@@ -384,7 +385,6 @@ body{
     background-color:rgba(21, 17, 17, 0);
     width:30%;
     height: 440px;
-    top: 240%;
     border: solid #39b7b8 3px;
 
 }
