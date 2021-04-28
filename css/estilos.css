@@ -50,7 +50,7 @@
     }
     .fotoparrafo1{
         margin-top: 40px;
-        width: 50% !important;
+        width: 70% !important;
         border: solid rgb(32, 182, 182);
 
     }
@@ -65,6 +65,7 @@
     .fotoparrafo2{
         margin-top: 40px;
         border: solid rgb(32, 182, 182);
+        width: 70% !important;
     }
 
     .boxmodule{
