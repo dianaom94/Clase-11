@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingBits</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="./JS/codingbits.js"></script>
+</head>
+<body>
+    <div class="containerheader">
+        <header class="containerheader1">
+            <nav class="navcontainer">
+                <div class="logocontainer">
+                    <img class="logoclase" src="./galeria/Logo CODINGBITS-02.png" alt="logodCB">
+                    <h1 class="logotexto">CODINGBITS</h1>
+                </div>
+                <ul class="boxlista">
+                    <li class="claseboton"><a class="boton"href="#Home">Home</a></li>
+                    <li class="claseboton"><a class="boton"href="#Nosotros">Nosotros</a></li> 
+                    <li class="claseboton"><a class="boton"href="#Marketplace">Marketplace</a></li> 
+                    <li class="claseboton"><a class="boton1"href="#Contacto">Contacto</a></li> 
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="containerbody">
+    <div class="containervideo">
+        <video class="boxvideo"  src="./galeria/pexels-anthony-shkraba-7165689.mp4" muted autoplay loop></video>
+        <h1 class="titulovideo">LA</h1>
+        <h1 class="titulovideo1">TECNOLOGÍA</h1>
+        <h1 class="titulovideo2">TE DA</h1>
+        <h1 class="titulovideo3">EL PODER</h1>
+    </div>
+    <div class="contenedor-seccion1">
+        <section class="box-seccion">
+            <h1 class="titulo-seccion1">SOBRE NOSOTROS <img class="icono-info" src="./galeria/informacion-icono.png" alt=""></h1>
+            <div class="box-parrafos">
+                <P class="parrafo-seccion1"><span class="linea"></span> <span >ipsum dolor sit amet consectetur adipisicing elit. Praesentium inventore delectus, sunt labore suscipit blanditiis illo velit nostrum reprehenderit libero maxime eos nemo aliquid nulla temporibus? Nesciunt eum placeat omnis? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur culpa ullam, vero similique harum repellat saepe libero suscipit aperiam exercitationem odit aut quasi eaque laborum vitae eveniet aliquam esse asperiores?</span>  <span class="linea"></span></P>
+                <div class="margen-foto">    </div>
+                <img class="fotoparrafo1" src="./galeria/photo-1581092795360-fd1ca04f0952.png" alt="team"></div>
+                
+            </div>   
+                <div class="box-parrafos2">
+                    <p class="parrafo2-seccion1"> <span class="linea2"></span> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis numquam adipisci incidunt exercitationem explicabo obcaecati deserunt odio vero recusandae libero provident reiciendis blanditiis, necessitatibus fugit officiis quisquam, nihil saepe? Repellat! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque explicabo obcaecati veritatis. Aliquid error commodi nobis voluptatibus reiciendis expedita quos dicta eum eos ipsa, provident ratione nam, sunt omnis cupiditate!</span> <span class="linea2"></span></p>
+                    <div class="margen-foto2">    </div>
+                    <img src="./galeria/escritorio.png" alt="escritorio" class="fotoparrafo2">
+                </div>
+            
+        </section>
+    </div>
+    <div class="contenedorsection2">
+    <section id="Servicios" class="sectionservicios">
+        <div class="box-container">
+            <h1 class="titulosection"> <img class="icono-market"src="./galeria/marketplace.png" alt="marketpng"> MARKETPLACE</h1>
+                <div class="boxmodule">
+                    <article class="box">
+                        <img class="icono-module" src="./galeria/serc.png" alt="iconomodule">
+                        <h3 class="sub-title">Módulo 1</h3>
+                        <p class="parrafos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore rem, rerum pariatur enim fugiat vitae voluptas magni tempora harum provident minima repellendus dolorem deserunt odit voluptatibus, officiis illum sunt magnam.</p>
+                        <a href="http://" class="botonmodule" target="_blank" rel="nooper noreferrer">VER MÁS  </a>
+                    </article>
+                    <article class="box">
+                        <img class="icono-module" src="./galeria/servicios2.png" alt="iconomodule">
+                        <h3 class="sub-title">Módulo 2</h3>
+                        <p class="parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis veniam voluptatum voluptas officia earum repudiandae beatae alias asperiores qui. Dicta non illum accusantium voluptatum vel magni perspiciatis repellendus sed vitae.</p>
+                        <a href="http://" class="botonmodule" target="_blank" rel="nooper noreferrer">VER MÁS</a>
+                    </article>
+                    <article class="box">
+                        <img class="icono-module" src="./galeria/globo.png" alt="iconomodule">
+                        <h3 class="sub-title">Módulo 3</h3>
+                        <p class="parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eos dolorem suscipit, nihil exercitationem in eum asperiores mollitia distinctio sequi expedita culpa velit molestias nesciunt nisi minima, voluptas quod totam.</p>
+                        <a href="http://" class="botonmodule" target="_blank" rel="nooper noreferrer">VER MÁS</a>
+                    </article>        
+                </div>
+        </div>
+    </div>
+    </section>
+    <div id="Cotizar"class="containercontacto">
+        <h1 class="titulocontacto">CONTACTANOS</h1>
+        <form action="#"class="maincontainercontacto">
+            <p id="error"class="invisible"></p>
+            <div class="nombreyapellido">
+                <input required id="nombre" onchange="validanombre()" class="inputstyle"placeholder="Nombre:" type="text">
+                <input required id="apellido" onchange="validaapellido()" class="inputstyle" placeholder="Apellido:" type="text">
+            </div>
+            <div class="paiscorreo">
+                <input required id="pais" onchange="validapais()"class="inputstyle" placeholder="País:" type="text">
+                <input required id="correo" type="email" onchange="validacorreo()" class="inputstyle" placeholder="Correo:"type="text">
+            </div>
+            <div class="cajondemensaje">
+                <textarea required id="mensaje" class="textstyle" placeholder="Escribe tu mensaje..." ></textarea>
+            </div>
+            <div class="botonenviar" >
+                <input class="botonstyle" type="submit" onclick="alerta()"></input>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
